@@ -1,0 +1,20 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/hoteles-jd.appspot.com/o/hotel.webp?alt=media&token=de106885-c143-4b59-b635-54cd583a3a81');
+    background-position: top center;
+    background-size: cover;
+    padding: 10% 20% 30% 10%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.2;
+    z-index: -1;
+}
